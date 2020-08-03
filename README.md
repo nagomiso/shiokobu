@@ -3,7 +3,7 @@
 A simple wrapper for [natto-py](https://github.com/buruzaemon/natto-py).
 It's to allow to pickle of MeCab object.
 
-"ShioKobu" means pikled sea kelp with solt in Japanese.
+"ShioKobu" means pickled sea kelp with salt in Japanese.
 
 # Usage
 
