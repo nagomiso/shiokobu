@@ -5,9 +5,9 @@ It's to allow to pickle of MeCab object.
 
 "ShioKobu" means pickled sea kelp with salt in Japanese.
 
-# Usage
+## Usage
 
-`shiokobu.MeCab`'s interface is same as `natto.MeCab`.
+`shiokobu.MeCab`'s API is same as `natto.MeCab`.
 The only difference between `natto.MeCab` and `shiokobu.MeCab` is that `shiokobu.MeCab` can be picklable.
 
 ```py
@@ -22,6 +22,6 @@ nm2 = pickle.loads(pickle.dumps(nm))
 print(nm2.parse("すもももももももものうち"))
 ```
 
-# License
+## License
 
 This software is released under the MIT License, see `LICENSE` file.
